@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSPrincipalClass</key>
+    <string>Nyxt</string>
+    <key>CFBundleIconFile</key>
+    <string>nyxt.icns</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+    <string>Nyxt</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleExecutable</key>
+    <string>nyxt</string>
+    <key>CFBundleIdentifier</key>
+    <string>engineer.Atlas.Nyxt</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsLocalNetworking</key>
+      <true/>
+    </dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+	    <key>CFBundleURLName</key>
+	    <string>http URL</string>
+	    <key>CFBundleURLSchemes</key>
+	    <array>
+	      <string>http</string>
+	    </array>
+      </dict>
+      <dict>
+	    <key>CFBundleURLName</key>
+	    <string>https URL</string>
+	    <key>CFBundleURLSchemes</key>
+	    <array>
+	      <string>https</string>
+	    </array>
+      </dict>
+      <dict>
+	    <key>CFBundleURLName</key>
+	    <string>gopher URL</string>
+	    <key>CFBundleURLSchemes</key>
+	    <array>
+	      <string>gopher</string>
+	    </array>
+      </dict>
+      <dict>
+	    <key>CFBundleURLName</key>
+	    <string>gemini URL</string>
+	    <key>CFBundleURLSchemes</key>
+	    <array>
+	      <string>gemini</string>
+	    </array>
+      </dict>
+    </array>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+	    <key>CFBundleTypeExtensions</key>
+	    <array>
+	      <string>html</string>
+          <string>xhtml</string>
+	    </array>
+      </dict>
+    </array>
+  </dict>
+</plist>
